@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body
+{
+    background-color: #263339;
+}
+
+
+::-webkit-scrollbar
+{
+	width: 2px;
+
+}
+
+::-webkit-scrollbar-thumb 
+{
+	background: #5f4f46;
+	border-radius: 100px;
+}
+
+a 
+{
+    color: #80cbc4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+  
+a:hover
+{
+    opacity: 0.7;
+}
+
+
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #232c32;
+    height: 15vh;
+}
+
+
+.nav-list
+{
+    list-style: none;
+    display: flex;
+}
+  
+.nav-list li 
+{
+    margin-left: 32px;
+}
+
+
+.mobile-menu 
+{
+    display: none;
+    cursor: pointer;
+}
+
+
+.mobile-menu div 
+{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.search-box{
+    background: #d6d1cf;
+    margin-top:  0px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+.search-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: rgb(37, 33, 33);
+    font-size: 18px;
+    transition: 0.4s;
+    width: 270px;
+    font-weight: 100;
+
+}
+
+input::placeholder
+{
+    color:#000000;
+}
+
+.search-btn{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #263339;
+    display: flex;
+}
+
+
+.search-box:hover > .search-btn{
+    background: #e7edf2;
+}
+
+
+#section1_list
+{
+    margin-top: 12px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column; 
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#section1_list a
+{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px;
+    width: 100%;
+    font-size: 28px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+#section1_list a:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+    border-color: #fff;
+}
+
+.servicos
+{
+    float: right;
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 540px;
+    width: 1000px;
+    border: solid 1px #80cbc4;
+    background-image: url(img/759633.png);
+}
+
+#first
+{
+    display: flex;
+}
+
+
+h1
+{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    font-family: 'Permanent Marker', cursive;
+    color: #dcf0ee;
+}
+
+.fodase
+{
+    height: 500px;
+    width: 70%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.product
+{
+    height: 50%;
+    width: 49%;
+    border: solid 1px;
+    margin: 1px;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+
+}
+
+
+
+.preco
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 82px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:azure;
+}
+
+.comprar
+{
+    font-size: 28px;
+    border: solid ;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.product a:hover
+{
+    background-color: rgb(255, 255, 255);
+    border: solid white;
+    color: #263339;
+}
+
+.personagem
+{
+    float: left;
+    height: 450px;
+    margin-top: 50px;
+
+}
+
+.section2
+{
+    display: flex;
+    flex-direction: row;
+}
